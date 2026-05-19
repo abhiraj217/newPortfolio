@@ -1,16 +1,6 @@
-import {
-  FaReact,
-  FaHtml5,
-  FaNodeJs,
-  FaGithub,
-} from "react-icons/fa";
+import { FaReact, FaHtml5, FaNodeJs, FaGithub } from "react-icons/fa";
 
-import {
-  SiSass,
-  SiFirebase,
-  SiExpress,
-  SiTailwindcss,
-} from "react-icons/si";
+import { SiSass, SiFirebase, SiExpress, SiTailwindcss } from "react-icons/si";
 
 import rohanSystems from "../../assets/images/rohansystemsImage.png";
 import githubFinder from "../../assets/images/githubfinder.png";
@@ -28,7 +18,7 @@ const Projects = () => {
         "Developed a responsive dental clinic website with modern UI, services section, appointment flow, and optimized user experience.",
       liveLink: "https://denviadental.in",
       githubLink: "https://github.com/abhiraj217/Denvia-Dental-Clinic",
-        tech: [
+      tech: [
         <FaReact className="text-cyan-400" />,
         <FaHtml5 className="text-orange-500" />,
         <SiSass className="text-pink-500" />,
@@ -42,7 +32,7 @@ const Projects = () => {
         "Built a real-world IT solutions website featuring services, responsive layouts, interactive UI, and business-focused design.",
       liveLink: "https://rohansystems.com",
       githubLink: "https://github.com/abhiraj217/Rohan-Systems",
-        tech: [
+      tech: [
         <FaReact className="text-cyan-400" />,
         <FaHtml5 className="text-orange-500" />,
         <SiTailwindcss className="text-cyan-500" />,
@@ -56,7 +46,7 @@ const Projects = () => {
         "Created a GitHub profile finder application with search functionality and dynamic user data rendering using APIs.",
       liveLink: "https://github.com/abhiraj217/Github-Finder",
       githubLink: "https://github.com/abhiraj217/Github-Finder",
-        tech: [
+      tech: [
         <FaReact className="text-cyan-400" />,
         <FaHtml5 className="text-orange-500" />,
         <SiSass className="text-pink-500" />,
@@ -70,7 +60,7 @@ const Projects = () => {
         "Developed a patient management portal with authentication, records management, and secure full-stack architecture.",
       liveLink: "https://github.com/siddhesh-06/dk-frontend",
       githubLink: "https://github.com/siddhesh-06/dk-frontend",
-        tech: [
+      tech: [
         <FaReact className="text-cyan-400" />,
         <FaNodeJs className="text-green-500" />,
         <SiExpress className="text-gray-400" />,
@@ -85,7 +75,7 @@ const Projects = () => {
         "Built a full-stack contact management application with authentication, CRUD operations, and cloud data storage.",
       liveLink: "/",
       githubLink: "/",
-        tech: [
+      tech: [
         <FaReact className="text-cyan-400" />,
         <FaNodeJs className="text-green-500" />,
         <SiExpress className="text-gray-400" />,
@@ -104,7 +94,6 @@ const Projects = () => {
     >
       {/* Heading */}
       <div className="mb-12 md:mb-16 text-center lg:text-left">
-
         <h1
           className="
           text-4xl sm:text-5xl md:text-6xl
@@ -113,10 +102,7 @@ const Projects = () => {
           dark:text-white
           "
         >
-          Featured{" "}
-          <span className="text-violet-500">
-            Projects
-          </span>
+          Featured <span className="text-violet-500">Projects</span>
         </h1>
 
         <p
@@ -127,8 +113,7 @@ const Projects = () => {
           mt-4
           "
         >
-          Real-world applications and projects
-          I have built.
+          Real-world applications and projects I have built.
         </p>
       </div>
 
@@ -184,7 +169,6 @@ const Projects = () => {
 
             {/* Content */}
             <div className="p-5 md:p-8">
-
               {/* Title */}
               <h2
                 className="
@@ -252,19 +236,23 @@ const Projects = () => {
                 {/* Live Demo */}
                 <Link
                   to={project.liveLink}
-                  target="blank"
+                  target="_blank"
                   className="
-                  bg-violet-700
-                  hover:bg-violet-800
-                  text-white
-                  px-5 py-3
-                  rounded-xl
-                  transition-all duration-300
-                  text-sm md:text-base
-                  font-medium
-                  shadow-md
-                  hover:scale-105
-                  "
+                    bg-violet-700
+                    hover:bg-violet-800
+                    text-white
+                    px-5 py-3
+                    rounded-xl
+                    transition-all duration-300
+                    text-sm md:text-base
+                    font-medium
+                    shadow-md
+                    hover:scale-105
+
+                    flex items-center justify-center
+                    text-center
+                    w-full sm:w-auto
+                    "
                 >
                   Live Demo
                 </Link>

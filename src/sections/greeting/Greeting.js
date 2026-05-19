@@ -134,8 +134,8 @@ const Greeting = () => {
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 md:gap-6 mt-4">
               {/* Contact Button */}
-              <Link
-                to="#contact"
+              <a
+                href="#contact"
                 className="
                 bg-violet-700
                 hover:bg-violet-800
@@ -151,7 +151,7 @@ const Greeting = () => {
                 "
               >
                 Contact Me
-              </Link>
+              </a>
 
               {/* Resume Button */}
               <Link
