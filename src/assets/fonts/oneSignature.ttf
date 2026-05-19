@@ -1,0 +1,4 @@
+@font-face {
+  font-family: "Agustina Regular";
+  src: url("./assets/fonts/OneSignature.ttf") format("truetype");
+}
